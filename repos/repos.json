@@ -138,7 +138,7 @@
   },
   "AnyKernel3": {
     "use": true,
-    "release": false,
+    "release": true,
     "repo": "https://github.com/luyanci/AnyKernel3",
     "branch": "master"
   }
