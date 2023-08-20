@@ -92,26 +92,26 @@
   "withKernelSU": true,
   "toolchains": [
     {
-      "repo": "https://github.com/SlackerState/kernel_bulid",
-      "branch": "main",
+      "repo": "https://github.com/luyanci/kernel_bulid",
+      "branch": "clang",
       "name": "clang",
       "binPath": ["toolclang/clang-r428724/bin"]
     },
     {
-      "repo": "https://github.com/SlackerState/kernel_bulid",
-      "branch": "main",
+      "repo": "https://github.com/luyanci/kernel_bulid",
+      "branch": "gcc",
       "name": "gcc",
       "binPath": ["toolgcc/bin"]
     },
     {
-      "repo": "https://github.com/SlackerState/kernel_bulid",
-      "branch": "main",
+      "repo": "https://github.com/luyanci/kernel_bulid",
+      "branch": "dtc",
       "name": "dtc",
       "binPath": ["./"]
     },
     {
-      "repo": "https://github.com/SlackerState/kernel_bulid",
-      "branch": "main",
+      "repo": "https://github.com/luyanci/kernel_bulid",
+      "branch": "gcc",
       "name": "gcc-arm",
       "binPath": ["toolgcc/arm/bin"]
     }
@@ -138,7 +138,7 @@
   },
   "AnyKernel3": {
     "use": true,
-    "release": true,
+    "release": false,
     "repo": "https://github.com/luyanci/AnyKernel3",
     "branch": "master"
   }
