@@ -9,6 +9,5 @@ Build for Redmi K30 4G Android kernels by github Action.
 或[其他内核](https://github.com/luyanci/Android-Kernel-Builder/releases/latest)
 4.刷入（或者在sideload模式下用'adb sideload xxx.zip'刷入）
 ## 目前已有内核构建
-目前已有--MIUI(有刷入后无法进入系统的问题，不再自动上传至releases)--
-**PixelExperience11,redcliff**3个内核构建
+目前已有**~~MIUI(有刷入后无法进入系统的问题，不再自动上传至releases)~~,PixelExperience11,redcliff**3个内核构建
 (主要是针对类原的构建)
