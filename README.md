@@ -23,3 +23,8 @@ Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 **EvolutionX(Android 13)** (未自测 自行测试)
 
 共4个内核构建(主要是针对类原的构建)
+
+# 内核源码仓库链接
+ [MIUI&redcliff](https://github.com/SlackerState/android_kernel_xiaomi_sm6150)
+[PixelExperience](https://github.com/PixelExperience-Devices/kernel_xiaomi_phoenix)
+[EvolutionX](https://github.com/jaymistry258/kernel_xiaomi_phoenix)
