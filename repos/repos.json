@@ -48,7 +48,7 @@
      "device": "phoenix", 
      "defconfig": "phoenix_defconfig" 
    }, 
-   "withKernelSU": false, 
+   "withKernelSU": ture, 
    "toolchains": [ 
      {  
         "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master/clang-r498229b.tar.gz",  
