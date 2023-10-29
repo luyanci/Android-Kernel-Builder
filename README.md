@@ -1,7 +1,7 @@
 # Android-Kernel-Builder
-Build for Redmi K30 4G Android kernels by github Action.
+Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 ## 介绍
-使用github Action构建，给Redmi k30 4G（Phoenix）使用的安卓系统内核
+使用github Action构建，给Redmi k30 4G/Poco X2（phoenix/phoenixin）使用的安卓系统内核
 ## 刷入方法
 1.进入recovery（关机状态下电源+音量加）
 
@@ -13,12 +13,13 @@ Build for Redmi K30 4G Android kernels by github Action.
 4.刷入（或者在sideload模式下用'adb sideload xxx.zip'刷入）
 
 ## 目前已有内核构建
-目前已有
 
-**~~MIUI~~(经测试MIUIV12.5.5.0有刷入后无法进入系统的问题，暂时不再自动上传至releases)**
+**~~MIUI~~(经测试MIUIV12.5.5.0有刷入后无法进入系统的问题，暂时不再自动上传至release)**
 
-**PixelExperience-11**
+**PixelExperience(Android 11)**
 
-**redcliff**
+**redcliff**(Android13类原 可自行测试)
 
-共3个内核构建(主要是针对类原的构建)
+**EvolutionX(Android 13)** (未自测 自行测试)
+
+共4个内核构建(主要是针对类原的构建)

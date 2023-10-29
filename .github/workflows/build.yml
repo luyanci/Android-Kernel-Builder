@@ -299,6 +299,6 @@ jobs:
         if: ${{ env.useAnykernel == 'true' && env.release == 'true' }}
         with:
           tag_name: v${{ env.builddate }}.${{ github.run_number }}
-          body: 'redcliff:基于a13的类原可以尝试使用 PixelExperience:仅在PE11中测试通过，其他版本自测'
+          body: 'redcliff:基于a13的类原可以尝试使用，但未经测试 PixelExperience:本仓库仅构建了Android11的PE内核，其他版本自行构建 EvolutionX:新内核，尚未测试使用，可自测'
           files: "${{ env.WORKSPACE }}/${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}_${{ env.builddate }}.zip"
           generate_release_notes: true

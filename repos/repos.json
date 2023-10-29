@@ -40,6 +40,46 @@
     "branch": "master"
   }
 },
+  { 
+   "kernelSource": { 
+     "name": "EvolutionX", 
+     "repo": "https://github.com/jaymistry258/kernel_xiaomi_phoenix", 
+     "branch": "alza-su", 
+     "device": "phoenix", 
+     "defconfig": "phoenix_defconfig" 
+   }, 
+   "withKernelSU": ture, 
+   "toolchains": [ 
+     {  
+        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master/clang-r498229b.tar.gz",  
+        "name": "clang",  
+        "binPath": ["bin"]  
+     } 
+   ], 
+   "ccache": false, 
+   "params": { 
+     "ARCH": "arm64", 
+     "CC": "clang/bin/clang", 
+     "externalCommand": { 
+       "CROSS_COMPILE": "aarch64-linux-gnu-", 
+       "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-", 
+       "AS": "clang/bin/llvm-as", 
+       "AR": "clang/bin/llvm-ar",  
+       "NM":"clang/bin/llvm-nm" ,  
+       "OBJCOPY":"clang/bin/llvm-objcopy",  
+       "OBJDUMP":"clang/bin/llvm-objdump",  
+       "STRIP":"clang/bin/llvm-strip",  
+       "LD":"clang/bin/ld.lld", 
+       "LTO": "thin" 
+     } 
+   }, 
+   "AnyKernel3": { 
+     "use": ture, 
+     "release": ture, 
+     "repo": "https://github.com/luyanci/AnyKernel3", 
+     "branch": "master" 
+   } 
+},
   {
   "kernelSource": {
     "name": "redcliff",
