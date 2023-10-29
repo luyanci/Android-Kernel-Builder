@@ -15,7 +15,7 @@ Build for Redmi K30 4G Android kernels by github Action.
 ## 目前已有内核构建
 目前已有
 
-**~~MIUI~~(有刷入后无法进入系统的问题，不再自动上传至releases)**
+**~~MIUI~~(经测试MIUIV12.5.5.0有刷入后无法进入系统的问题，暂时不再自动上传至releases)**
 
 **PixelExperience-11**
 
