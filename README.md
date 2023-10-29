@@ -14,7 +14,7 @@ Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 
 ## 目前已有内核构建
 
-**~~MIUI~~(经测试MIUIV12.5.5.0有刷入后无法进入系统的问题，暂时不再自动上传至release)**
+**~~MIUI~~(经测试MIUIV12.5.5.0有刷入后无法进入系统的问题，暂时不再自动上传至releases)**
 
 **PixelExperience(Android 11)**
 
