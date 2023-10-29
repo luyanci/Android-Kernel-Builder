@@ -40,7 +40,7 @@
     "branch": "master"
   }
 },
-{ 
+  { 
    "kernelSource": { 
      "name": "EvolutionX", 
      "repo": "https://github.com/jaymistry258/kernel_xiaomi_phoenix", 
@@ -79,7 +79,7 @@
      "repo": "https://github.com/luyanci/AnyKernel3", 
      "branch": "master" 
    } 
-  },
+},
   {
   "kernelSource": {
     "name": "redcliff",
