@@ -48,7 +48,7 @@
      "device": "phoenix", 
      "defconfig": "phoenix_defconfig" 
    }, 
-   "withKernelSU": ture, 
+   "withKernelSU": true, 
    "toolchains": [ 
      {  
         "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master/clang-r498229b.tar.gz",  
@@ -74,8 +74,8 @@
      } 
    }, 
    "AnyKernel3": { 
-     "use": ture, 
-     "release": ture, 
+     "use": true, 
+     "release": true, 
      "repo": "https://github.com/luyanci/AnyKernel3", 
      "branch": "master" 
    } 
