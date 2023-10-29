@@ -27,6 +27,6 @@ Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 
 [PixelExperience](https://github.com/PixelExperience-Devices/kernel_xiaomi_phoenix)
 
-[EvolutionX's kernel](https://github.com/jaymistry258/kernel_xiaomi_phoenix)
+[EvolutionX's kernel(Alza)](https://github.com/jaymistry258/kernel_xiaomi_phoenix)
 
 [Paradox&Pure](https://github.com/Pzqqt/android_kernel_xiaomi_sm6150-1)
