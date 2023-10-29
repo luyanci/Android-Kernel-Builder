@@ -177,7 +177,7 @@
   },
   "AnyKernel3": {
     "use": true,
-    "release": ture,
+    "release": false,
     "repo": "https://github.com/luyanci/AnyKernel3",
     "branch": "master"
   }
