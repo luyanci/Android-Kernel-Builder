@@ -1,7 +1,7 @@
 # Android-Kernel-Builder
-Build for Redmi K30 4G Android kernels by github Action.
+Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 ## 介绍
-使用github Action构建，给Redmi k30 4G（Phoenix）使用的安卓系统内核
+使用github Action构建，给Redmi k30 4G/Poco X2（phoenix/phoenixin）使用的安卓系统内核
 ## 刷入方法
 1.进入recovery（关机状态下电源+音量加）
 
