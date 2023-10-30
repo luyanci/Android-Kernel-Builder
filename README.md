@@ -20,7 +20,9 @@ Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 
 **redcliff**(Android13类原 可自行测试)
 
-共3个内核构建(主要是针对类原的构建)
+**Pure**([这个非官方的PE13](https://github.com/SimpleJony/device_xiaomi_phoenix/releases/tag/PEPlus)似乎用了这个内核)[From](https://github.com/PixelExperience/official_devices/issues/3155)
+
+共4个内核构建(主要是针对类原的构建)
 
 # 一些内核源码仓库链接(找到的)
  [MIUI&Redcliff(来自于ksu的wiki)](https://github.com/SlackerState/android_kernel_xiaomi_sm6150)
