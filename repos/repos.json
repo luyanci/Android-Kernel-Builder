@@ -81,65 +81,54 @@
     "branch": "master"
   }
 },
- {
-  "kernelSource": {
-    "name": "MIUI",
-    "repo": "https://github.com/SlackerState/android_kernel_xiaomi_sm6150",
-    "branch": "phoenix-r-oss",
-    "device": "phoenix_ztc1997",
-    "defconfig": "vendor/phoenix_ztc1997_defconfig"
-  },
-  "withKernelSU": true,
-  "toolchains": [
-    {
-      "repo": "https://github.com/luyanci/kernel_bulid",
-      "branch": "clang",
-      "name": "clang",
-      "binPath": ["toolclang/clang-r428724/bin"]
-    },
-    {
-      "repo": "https://github.com/luyanci/kernel_bulid",
-      "branch": "gcc",
-      "name": "gcc",
-      "binPath": ["toolgcc/bin"]
-    },
-    {
-      "repo": "https://github.com/luyanci/kernel_bulid",
-      "branch": "dtc",
-      "name": "dtc",
-      "binPath": ["./"]
-    },
-    {
-      "repo": "https://github.com/luyanci/kernel_bulid",
-      "branch": "gcc",
-      "name": "gcc-arm",
-      "binPath": ["toolgcc/arm/bin"]
-    }
-  ],
-  "ccache": false,
-  "params": {
-    "ARCH": "arm64",
-    "CC": "clang",
-    "externalCommand": {
-      "CROSS_COMPILE": "aarch64-linux-android-",
-      "CROSS_COMPILE_ARM32": "arm-linux-androideabi-",
-      "CLANG_TRIPLE": "aarch64-linux-gnu-",
-      "AR": "llvm-ar",
-      "HOSTCC":"gcc",
-      "HOSTCXX":"clang++",
-      "NM":"llvm-nm" ,
-      "OBJCOPY":"llvm-objcopy",
-      "OBJDUMP":"llvm-objdump",
-      "STRIP":"llvm-strip",
-      "LD":"ld.lld",
-      "DTC_EXT":"dtc"
-    }
-  },
-  "AnyKernel3": {
-    "use": true,
-    "release": false,
-    "repo": "https://github.com/luyanci/AnyKernel3",
-    "branch": "master"
-  }
+  {  
+    "kernelSource": {  
+      "name": "MIUI",  
+      "repo": "https://github.com/SlackerState/android_kernel_xiaomi_sm6150",  
+      "branch": "phoenix-r-oss",  
+      "device": "phoenix_ztc1997",  
+      "defconfig": "vendor/phoenix_ztc1997_defconfig"  
+    },  
+    "withKernelSU": true,  
+    "toolchains": [  
+      {  
+        "repo": "https://github.com/luyanci/kernel_bulid",  
+        "branch": "clang",  
+        "name": "clang",  
+        "binPath": ["toolclang/clang-r428724/bin"]  
+      },  
+      {  
+        "repo": "https://github.com/luyanci/kernel_bulid",  
+        "branch": "gcc",  
+        "name": "tool",  
+        "binPath": ["./"]  
+      } 
+    ],  
+    "ccache": false,  
+    "params": {  
+      "ARCH": "arm64",  
+      "CC": "clang/toolclang/clang-r428724/bin/clang",  
+      "externalCommand": {  
+        "CROSS_COMPILE": "tool/toolgcc/bin/aarch64-linux-android-",  
+        "CROSS_COMPILE_ARM32": "tool/toolgcc/arm/bin/arm-linux-androideabi-",  
+        "CROSS_COMPILE_COMPAT":"",  
+        "CLANG_TRIPLE": "aarch64-linux-gnu-",  
+        "AR": "clang/toolclang/clang-r428724/bin/llvm-ar",  
+        "HOSTCC":"gcc",  
+        "HOSTCXX":"clang/toolclang/clang-r428724/bin/clang++",  
+        "NM":"clang/toolclang/clang-r428724/bin/llvm-nm" ,  
+        "OBJCOPY":"clang/toolclang/clang-r428724/bin/llvm-objcopy",  
+        "OBJDUMP":"clang/toolclang/clang-r428724/bin/llvm-objdump",  
+        "STRIP":"clang/toolclang/clang-r428724/bin/llvm-strip",  
+        "LD":"clang/toolclang/clang-r428724/bin/ld.lld",  
+        "DTC_EXT":"tool/dtc"  
+      }  
+    },  
+    "AnyKernel3": {  
+      "use": true,  
+      "release": false,  
+      "repo": "https://github.com/luyanci/AnyKernel3",  
+      "branch": "master"  
+    }  
 }
 ]
