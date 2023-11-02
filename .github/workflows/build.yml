@@ -136,7 +136,6 @@ jobs:
               esac
             fi
             
-            rm $filename
             jq -r ".[$i].binPath[] | tostring" <<< "$toolchains" | while read -r bin_path; do
               echo "$WORKSPACE/$toolchain_name/$bin_path" >> $GITHUB_PATH
             done
