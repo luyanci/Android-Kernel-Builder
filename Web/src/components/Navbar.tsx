@@ -4,6 +4,7 @@ import React from 'react';
 import { usePathname } from "next/navigation";
 import { Navbar as NextNavBar, NavbarBrand, NavbarContent, NavbarItem, Link, Avatar } from "@nextui-org/react";
 
+import { ThemeSwitcher } from './ThemeSwitcher/ThemeSwitcher';
 
 const Navbar = () => {
     // 获取当前网页路径
@@ -56,6 +57,7 @@ const Navbar = () => {
             </NavbarContent>
 
             <NavbarContent as="div" justify="end">
+                <ThemeSwitcher />
                 <Link isExternal href="https://github.com/easterNday">
                     <Avatar
                         isBordered

@@ -19,6 +19,7 @@
     "framer-motion": "^10.16.4",
     "github-markdown-css": "^5.4.0",
     "next": "14.0.1",
+    "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
     "rehype-autolink-headings": "^7.0.0",
