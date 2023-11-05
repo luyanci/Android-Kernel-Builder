@@ -9,7 +9,7 @@ on:
     - cron: '0 11 * * 7'
   push: 
        branches: 
-       - master # default branch: 
+       - main # default branch: 
 
 jobs:
   Set-repos:
