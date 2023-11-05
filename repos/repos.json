@@ -84,10 +84,10 @@
   {  
     "kernelSource": {  
       "name": "MIUI",  
-      "repo": "https://github.com/SlackerState/android_kernel_xiaomi_sm6150",  
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",  
       "branch": "phoenix-r-oss",  
-      "device": "phoenix_ztc1997",  
-      "defconfig": "vendor/phoenix_ztc1997_defconfig"  
+      "device": "Phoenix",  
+      "defconfig": "vendor/phoenix_user_defconfig"  
     },  
     "withKernelSU": true,  
     "toolchains": [  
