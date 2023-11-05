@@ -1,0 +1,14 @@
+.config-card {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    .config-panel {
+        grid-column: 1;
+    }
+
+    .config-output {
+        grid-column: 2;
+    }
+
+}
