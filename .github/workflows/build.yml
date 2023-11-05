@@ -1,4 +1,4 @@
-name: "Build kernels"
+ name: "Build kernels"
 
 env:
   OUT_DIR: "${{ github.workspace }}/out"
@@ -9,7 +9,7 @@ on:
     - cron: '0 11 * * 7'
   push: 
        branches: 
-       - main # default branch: 
+         - main # default branch: 
 
 jobs:
   Set-repos:
