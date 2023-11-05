@@ -26,6 +26,7 @@ Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 
 ## 构建周期
 每周日的早11点(UTC)会自动编译一次内核，每个月会清理一次构建历史
+
 如果有非周日的releases，那可能是我给仓库更新了点什么并构建测试了
 
 # 一些内核源码仓库链接(找到的)
