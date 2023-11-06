@@ -303,6 +303,6 @@ jobs:
         if: ${{ env.useAnykernel == 'true' && env.release == 'true' }}
         with:
           tag_name: v${{ env.builddate }}.${{ github.run_number }}
-          body: 'redcliff:基于a13的类原可以尝试使用，但未经测试 PixelExperience:本仓库仅构建了Android11的PE内核，其他版本自行构建 Pure-phoenix:请看readme，可能适用于PE13-UNOFFICAL的ROM'
+          body: 'redcliff:基于a13的类原可以尝试使用  PE11:Android11的PE内核，已测试通过，正常启动  PE12:Android12的PE内核，可自行刷入测试 Pure-phoenix:请看readme，可能适用于PE13-UNOFFICAL的ROM'
           files: "${{ env.WORKSPACE }}/${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}_${{ env.builddate }}.zip"
-          generate_release_notes: true
+          generate_release_notes: false
