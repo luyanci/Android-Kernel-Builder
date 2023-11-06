@@ -1,9 +1,50 @@
 [
   {
   "kernelSource": {
-    "name": "PixelExperience",
+    "name": "PE11",
     "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_phoenix",
     "branch": "eleven",
+    "device": "phoenix",
+    "defconfig": "vendor/phoenix_defconfig"
+  },
+  "withKernelSU": true,
+  "toolchains": [
+  {
+    "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+    "branch": "11",
+    "name": "clang",
+    "binPath": ["bin"]
+  },
+  {
+    "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+    "branch": "master",
+    "name": "gas",
+    "binPath": ["bin"]
+  }
+],
+  "ccache": false,
+"params": {
+  "ARCH": "arm64",
+  "CC": "clang",
+  "externalCommand": {
+    "CLANG_TRIPLE": "aarch64-linux-gnu-",
+    "CROSS_COMPILE": "aarch64-linux-gnu-",
+    "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+    "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-"
+  }
+  },
+  "AnyKernel3": {
+    "use": true,
+    "release": true,
+    "repo": "https://github.com/luyanci/AnyKernel3",
+    "branch": "master"
+  }
+},
+{
+  "kernelSource": {
+    "name": "PE12",
+    "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_phoenix",
+    "branch": "twelve",
     "device": "phoenix",
     "defconfig": "vendor/phoenix_defconfig"
   },
