@@ -22,7 +22,7 @@ Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 
 **Pure**([这个非官方的PE13](https://github.com/SimpleJony/device_xiaomi_phoenix/releases/tag/PEPlus)似乎用了这个内核)[From](https://github.com/PixelExperience/official_devices/issues/3155)
 
-共4个内核构建(主要是针对类原的构建)
+共5个内核构建(主要是针对类原的构建)
 
 ## 构建周期
 每周日的早11点(UTC)会自动编译一次内核，每个月会清理一次构建历史
