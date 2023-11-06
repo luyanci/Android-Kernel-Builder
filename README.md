@@ -1,5 +1,6 @@
 # Android-Kernel-Builder
 Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
+<center>[![Build kernels](https://github.com/luyanci/Android-Kernel-Builder/actions/workflows/build.yml/badge.svg)](https://github.com/luyanci/Android-Kernel-Builder/actions/workflows/build.yml) </center>
 ## 介绍
 使用github Action构建，给Redmi k30 4G/Poco X2（phoenix/phoenixin）使用的安卓系统内核
 ## 刷入方法
