@@ -1,7 +1,7 @@
 [
   {
   "kernelSource": {
-    "name": "PixelExperience",
+    "name": "PixelExperience-11",
     "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_phoenix",
     "branch": "eleven",
     "device": "phoenix",
