@@ -2,7 +2,7 @@
 Build for Redmi K30 4G /Poco X2(phoenix/phoenixin) kernels by github Action.
 <center>
 
-[原版readme](https://github.com/luyanci/Android-Kernel-Builder/tree/main/readme-vanlia.md)
+[原版readme](https://github.com/luyanci/Android-Kernel-Builder/blob/main/README_vanlia.md)
 
 [![Build kernels](https://github.com/luyanci/Android-Kernel-Builder/actions/workflows/build.yml/badge.svg)](https://github.com/luyanci/Android-Kernel-Builder/actions/workflows/build.yml) 
 
